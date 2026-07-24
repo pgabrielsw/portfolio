@@ -1,24 +1,52 @@
-# 👨‍💻 Pablo Gabriel
+# Pablo Gabriel
 
-> 👨‍💻 Este é o meu site pessoal. Minha paixão por tecnologia e desenvolvimento está refletida neste(portfolio).
+> Portfólio pessoal — Profissional de TI com foco em suporte técnico, infraestrutura e desenvolvimento de software.
 
-## 🏗 Tecnologias
+## Tecnologias
 
-| Nuxt | TailwindCSS | GSAP | Storyblok |
-| :--: | :---------: | :--: | :-------: |
+| Nuxt.js | TailwindCSS | GSAP |
+| :-----: | :---------: | :--: |
 
-## 🎨 Recursos
+## Funcionalidades
 
-- Site estático Nuxt completo
-- SSR
-- SPA
-- Blog
-- Funcionalidade de tags
+- Site estático Nuxt (SSR / SPA)
 - SEO e compartilhamento em redes sociais
-- Modo escuro
+- Modo escuro / claro
 - Design responsivo
-- Animações
-- Botões de redes sociais e mensagens
-- Currículo
-- Portfolio
-- Carrossel
+- Animações com GSAP
+- Botões de redes sociais e WhatsApp
+- Currículo com experiência profissional e formação
+- Portfolio com projetos
+- Tech stack com ícones dinâmicos
+
+## Estrutura
+
+```
+├── assets/          # Imagens e estilos
+├── components/      # Componentes Vue (layout, ui, utility)
+├── docs/            # Dados de portfolios e marcas
+├── pages/           # Rotas (portfolio, resume)
+├── plugins/         # Plugins Nuxt
+├── static/          # Favicon e arquivos estáticos
+├── store/           # Estado global (sidebar)
+└── utils/           # Utilitários (SEO)
+```
+
+## Instalação
+
+```bash
+# Instalar dependências
+npm install
+
+# Rodar em modo desenvolvimento
+npm run dev
+
+# Gerar versão estática
+npm run generate
+```
+
+## Contato
+
+- Email: pablogabriel1941@gmail.com
+- LinkedIn: [linkedin.com/in/pgabrielsw](https://www.linkedin.com/in/pgabrielsw)
+- GitHub: [github.com/pgabrielsw](https://github.com/pgabrielsw)
